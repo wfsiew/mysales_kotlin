@@ -14,9 +14,9 @@ import java.text.DecimalFormat
 /**
  * Created by wingfei.siew on 8/14/2017.
  */
-fun isEmpty(s: String) : Boolean {
+fun isEmpty(s: String?) : Boolean {
     var b = false
-    if (s?.isEmpty()) b = true
+    if (s.isNullOrEmpty()) b = true
 
     return b
 }
