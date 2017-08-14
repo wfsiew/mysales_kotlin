@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="100"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/menu_reload"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        android:icon="@drawable/ic_reload"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/menu_add_doctor"
+        android:orderInCategory="100"
+        android:title="Add Doctor"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/menu_day"
+        android:orderInCategory="100"
+        android:title="List Options"
+        app:showAsAction="collapseActionView|ifRoom" />
+</menu>

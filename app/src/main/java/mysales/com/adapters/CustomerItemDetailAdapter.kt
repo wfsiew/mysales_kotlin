@@ -50,6 +50,6 @@ class CustomerItemDetailAdapter(context: Context, items: ArrayList<CustomerItem>
             txtval.text = `val`
         }
 
-        return v!!
+        return v
     }
 }

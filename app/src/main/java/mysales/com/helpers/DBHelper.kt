@@ -80,7 +80,7 @@ class DBHelper : SQLiteOpenHelper {
         return ls
     }
 
-    fun filterCustomer(name: String, item: String, period: String, year: String, sort: String): java.util.ArrayList<Customer> {
+    fun filterCustomer(name: String, item: String, period: String, year: String, sort: String): ArrayList<Customer> {
         var sort = sort
         val ls = ArrayList<Customer>()
         var and = false
