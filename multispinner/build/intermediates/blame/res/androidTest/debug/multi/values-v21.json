@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/wfsiew/learn/mysales_kotlin/multispinner/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v21/values-v21.xml",
+        "outputFile": "C:\\learn\\mysales_android_k\\multispinner\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -31,7 +31,7 @@
                     "endOffset": 277
                 },
                 "from": {
-                    "file": "/home/wfsiew/learn/mysales_kotlin/multispinner/build/intermediates/bundles/debug/res/values-v21/values-v21.xml",
+                    "file": "C:\\learn\\mysales_android_k\\multispinner\\build\\intermediates\\bundles\\debug\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -51,7 +51,7 @@
                     "endOffset": 341
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -70,7 +70,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -89,7 +89,7 @@
                     "endOffset": 472
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -108,7 +108,7 @@
                     "endOffset": 563
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -127,7 +127,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -146,7 +146,7 @@
                     "endOffset": 769
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -165,7 +165,7 @@
                     "endOffset": 874
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -184,7 +184,7 @@
                     "endOffset": 981
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -203,7 +203,7 @@
                     "endOffset": 1090
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 1199
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -241,7 +241,7 @@
                     "endOffset": 1308
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -260,7 +260,7 @@
                     "endOffset": 1417
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -279,7 +279,7 @@
                     "endOffset": 1526
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -298,7 +298,7 @@
                     "endOffset": 1633
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -317,7 +317,7 @@
                     "endOffset": 1736
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -336,7 +336,7 @@
                     "endOffset": 1855
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -356,7 +356,7 @@
                     "endOffset": 2010
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -377,7 +377,7 @@
                     "endOffset": 2165
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -397,7 +397,7 @@
                     "endOffset": 2270
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -416,7 +416,7 @@
                     "endOffset": 2391
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -435,7 +435,7 @@
                     "endOffset": 2492
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -455,7 +455,7 @@
                     "endOffset": 2639
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -476,7 +476,7 @@
                     "endOffset": 2780
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -496,7 +496,7 @@
                     "endOffset": 2883
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -515,7 +515,7 @@
                     "endOffset": 3002
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -534,7 +534,7 @@
                     "endOffset": 3109
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -553,7 +553,7 @@
                     "endOffset": 3212
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -573,7 +573,7 @@
                     "endOffset": 3367
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -594,7 +594,7 @@
                     "endOffset": 3538
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -615,7 +615,7 @@
                     "endOffset": 3687
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -636,7 +636,7 @@
                     "endOffset": 3852
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 4009
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -678,7 +678,7 @@
                     "endOffset": 4160
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -698,7 +698,7 @@
                     "endOffset": 4279
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -718,7 +718,7 @@
                     "endOffset": 4651
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -739,7 +739,7 @@
                     "endOffset": 4800
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -760,7 +760,7 @@
                     "endOffset": 4949
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -780,7 +780,7 @@
                     "endOffset": 5061
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -799,7 +799,7 @@
                     "endOffset": 5208
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -819,7 +819,7 @@
                     "endOffset": 5361
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -840,7 +840,7 @@
                     "endOffset": 5508
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -860,7 +860,7 @@
                     "endOffset": 5583
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -879,7 +879,7 @@
                     "endOffset": 5672
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -898,7 +898,7 @@
                     "endOffset": 5759
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,
@@ -917,7 +917,7 @@
                     "endOffset": 5860
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
@@ -936,7 +936,7 @@
                     "endOffset": 5963
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -956,7 +956,7 @@
                     "endOffset": 9031
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 4,
@@ -977,7 +977,7 @@
                     "endOffset": 9217
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 107,
                         "startColumn": 4,
@@ -998,7 +998,7 @@
                     "endOffset": 12297
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 110,
                         "startColumn": 4,
@@ -1019,7 +1019,7 @@
                     "endOffset": 12495
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 154,
                         "startColumn": 4,
@@ -1040,7 +1040,7 @@
                     "endOffset": 12695
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 157,
                         "startColumn": 4,
@@ -1061,7 +1061,7 @@
                     "endOffset": 12906
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/f6d79318675378d9ed80d3110be17f17/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\e32ab5727ab9447f0923cfcd1381a39a\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1082,7 +1082,7 @@
                     "endOffset": 13029
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 160,
                         "startColumn": 4,
@@ -1103,7 +1103,7 @@
                     "endOffset": 13152
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 162,
                         "startColumn": 4,
@@ -1124,7 +1124,7 @@
                     "endOffset": 13265
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 164,
                         "startColumn": 4,
@@ -1145,7 +1145,7 @@
                     "endOffset": 13448
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 166,
                         "startColumn": 4,
@@ -1166,7 +1166,7 @@
                     "endOffset": 13579
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 169,
                         "startColumn": 4,
@@ -1187,7 +1187,7 @@
                     "endOffset": 13780
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 171,
                         "startColumn": 4,
@@ -1207,7 +1207,7 @@
                     "endOffset": 13869
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 174,
                         "startColumn": 4,
@@ -1226,7 +1226,7 @@
                     "endOffset": 13980
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 175,
                         "startColumn": 4,
@@ -1246,7 +1246,7 @@
                     "endOffset": 14213
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 176,
                         "startColumn": 4,
@@ -1266,7 +1266,7 @@
                     "endOffset": 14314
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 179,
                         "startColumn": 4,
@@ -1285,7 +1285,7 @@
                     "endOffset": 14409
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 180,
                         "startColumn": 4,
@@ -1304,7 +1304,7 @@
                     "endOffset": 14532
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 181,
                         "startColumn": 4,
@@ -1323,7 +1323,7 @@
                     "endOffset": 14661
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 182,
                         "startColumn": 4,
@@ -1342,7 +1342,7 @@
                     "endOffset": 14778
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 183,
                         "startColumn": 4,
@@ -1362,7 +1362,7 @@
                     "endOffset": 14955
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 184,
                         "startColumn": 4,
@@ -1382,7 +1382,7 @@
                     "endOffset": 15054
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 187,
                         "startColumn": 4,
@@ -1402,7 +1402,7 @@
                     "endOffset": 15189
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 188,
                         "startColumn": 4,
@@ -1423,7 +1423,7 @@
                     "endOffset": 15332
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 190,
                         "startColumn": 4,
@@ -1444,7 +1444,7 @@
                     "endOffset": 15467
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 192,
                         "startColumn": 4,
@@ -1465,7 +1465,7 @@
                     "endOffset": 15586
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 194,
                         "startColumn": 4,
@@ -1486,7 +1486,7 @@
                     "endOffset": 15787
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 196,
                         "startColumn": 4,
@@ -1507,7 +1507,7 @@
                     "endOffset": 15906
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 200,
                         "startColumn": 4,
@@ -1527,7 +1527,7 @@
                     "endOffset": 15999
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 202,
                         "startColumn": 4,
@@ -1546,7 +1546,7 @@
                     "endOffset": 16110
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 203,
                         "startColumn": 4,
@@ -1565,7 +1565,7 @@
                     "endOffset": 16166
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 204,
                         "startColumn": 4,
@@ -1585,7 +1585,7 @@
                     "endOffset": 16273
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 205,
                         "startColumn": 4,
@@ -1606,7 +1606,7 @@
                     "endOffset": 16468
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 207,
                         "startColumn": 4,
@@ -1627,7 +1627,7 @@
                     "endOffset": 16579
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 211,
                         "startColumn": 4,
@@ -1648,7 +1648,7 @@
                     "endOffset": 16712
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 213,
                         "startColumn": 4,
@@ -1668,7 +1668,7 @@
                     "endOffset": 16807
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 215,
                         "startColumn": 4,
@@ -1687,7 +1687,7 @@
                     "endOffset": 16898
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 216,
                         "startColumn": 4,
@@ -1706,7 +1706,7 @@
                     "endOffset": 16989
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 217,
                         "startColumn": 4,
@@ -1725,7 +1725,7 @@
                     "endOffset": 17106
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 218,
                         "startColumn": 4,
@@ -1745,7 +1745,7 @@
                     "endOffset": 17245
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 219,
                         "startColumn": 4,
@@ -1765,7 +1765,7 @@
                     "endOffset": 17342
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/f6d79318675378d9ed80d3110be17f17/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\e32ab5727ab9447f0923cfcd1381a39a\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1785,7 +1785,7 @@
                     "endOffset": 17598
                 },
                 "from": {
-                    "file": "/home/wfsiew/learn/mysales_kotlin/multispinner/build/intermediates/bundles/debug/res/values-v21/values-v21.xml",
+                    "file": "C:\\learn\\mysales_android_k\\multispinner\\build\\intermediates\\bundles\\debug\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1806,7 +1806,7 @@
                     "endOffset": 18088
                 },
                 "from": {
-                    "file": "/home/wfsiew/learn/mysales_kotlin/multispinner/build/intermediates/bundles/debug/res/values-v21/values-v21.xml",
+                    "file": "C:\\learn\\mysales_android_k\\multispinner\\build\\intermediates\\bundles\\debug\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1826,7 +1826,7 @@
                     "endOffset": 18159
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 221,
                         "startColumn": 4,
@@ -1845,7 +1845,7 @@
                     "endOffset": 18242
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 222,
                         "startColumn": 4,
@@ -1865,7 +1865,7 @@
                     "endOffset": 18922
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 223,
                         "startColumn": 4,
@@ -1885,7 +1885,7 @@
                     "endOffset": 18979
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 233,
                         "startColumn": 4,
@@ -1904,7 +1904,7 @@
                     "endOffset": 19037
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 234,
                         "startColumn": 4,
@@ -1924,7 +1924,7 @@
                     "endOffset": 19731
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 235,
                         "startColumn": 4,
@@ -1945,7 +1945,7 @@
                     "endOffset": 20437
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 247,
                         "startColumn": 4,
@@ -1965,7 +1965,7 @@
                     "endOffset": 20556
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 259,
                         "startColumn": 4,
@@ -1984,7 +1984,7 @@
                     "endOffset": 20685
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 260,
                         "startColumn": 4,
@@ -2004,7 +2004,7 @@
                     "endOffset": 20856
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 261,
                         "startColumn": 4,
@@ -2025,7 +2025,7 @@
                     "endOffset": 21022
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 264,
                         "startColumn": 4,
@@ -2045,7 +2045,7 @@
                     "endOffset": 21151
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 267,
                         "startColumn": 4,
@@ -2065,7 +2065,7 @@
                     "endOffset": 21322
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 268,
                         "startColumn": 4,
@@ -2085,7 +2085,7 @@
                     "endOffset": 21453
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 271,
                         "startColumn": 4,
@@ -2105,7 +2105,7 @@
                     "endOffset": 21623
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 272,
                         "startColumn": 4,
@@ -2125,7 +2125,7 @@
                     "endOffset": 21739
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2144,7 +2144,7 @@
                     "endOffset": 21865
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2164,7 +2164,7 @@
                     "endOffset": 22033
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/0b14ce0c816a3b5e0005dee5bef7e159/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.1.aar\\6802a8ec28743c558fdb7e77888350f6\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2185,7 +2185,7 @@
                     "endOffset": 22196
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/0b14ce0c816a3b5e0005dee5bef7e159/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.1.aar\\6802a8ec28743c558fdb7e77888350f6\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2205,7 +2205,7 @@
                     "endOffset": 22322
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2225,7 +2225,7 @@
                     "endOffset": 22490
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/0b14ce0c816a3b5e0005dee5bef7e159/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.1.aar\\6802a8ec28743c558fdb7e77888350f6\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2245,7 +2245,7 @@
                     "endOffset": 22618
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2265,7 +2265,7 @@
                     "endOffset": 22785
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/0b14ce0c816a3b5e0005dee5bef7e159/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.1.aar\\6802a8ec28743c558fdb7e77888350f6\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2286,7 +2286,7 @@
                     "endOffset": 22957
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2307,7 +2307,7 @@
                     "endOffset": 23295
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.1.aar/591a231bdce857a7d6576466a88ef8c2/res/values-v21/values-v21.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.1.aar\\6455c7d8888b23d3b937f7c199471648\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -2328,7 +2328,7 @@
                     "endOffset": 23458
                 },
                 "from": {
-                    "file": "/home/wfsiew/learn/mysales_kotlin/multispinner/build/intermediates/bundles/debug/res/values-v21/values-v21.xml",
+                    "file": "C:\\learn\\mysales_android_k\\multispinner\\build\\intermediates\\bundles\\debug\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2349,7 +2349,7 @@
                     "endOffset": 23623
                 },
                 "from": {
-                    "file": "/home/wfsiew/learn/mysales_kotlin/multispinner/build/intermediates/bundles/debug/res/values-v21/values-v21.xml",
+                    "file": "C:\\learn\\mysales_android_k\\multispinner\\build\\intermediates\\bundles\\debug\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,

@@ -15,15 +15,14 @@ import mysales.com.helpers.isEmpty as _isEmpty
 /**
  * Created by wingfei.siew on 8/14/2017.
  */
-class DoctorAdapter(context: Context, private val items: ArrayList<Doctor>, private val btndel: Button) : ArrayAdapter<Doctor>(context, 0, items) {
+class DoctorAdapter(context: Context,
+                    private val items: ArrayList<Doctor>,
+                    private val btndel: Button) :
+        ArrayAdapter<Doctor>(context, 0, items) {
 
-    private val inflater: LayoutInflater
+    private val inflater: LayoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
     private var showSelect: Boolean = false
     private var selected: HashMap<Int, Int>? = null
-
-    init {
-        inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-    }
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         var v: View = convertView!!

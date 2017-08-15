@@ -6,30 +6,24 @@ import mysales.com.models.CustomerAddress
 import mysales.com.tasks.CommonTask
 import needle.Needle
 import mysales.com.helpers.DBHelper
-import mysales.com.helpers.showProgress as _showProgress
+import mysales.com.helpers.showProgress
 import mysales.com.helpers.isEmpty
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.Toolbar
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.ListView
-import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_customer_item_detail.*
+import kotlinx.android.synthetic.main.content_customer_item_detail.*
 import mysales.com.helpers.formatDouble
 import mysales.com.helpers.unlockScreenOrientation
 import mysales.com.models.Result
-
 
 /**
  * Created by wfsiew on 8/14/17.
  */
 class CustomerItemDetailActivity : AppCompatActivity() {
-
-    private var progress: View? = null
-    private var txtmain: TextView? = null
-    private var listitem: ListView? = null
 
     private var db: DBHelper? = null
 
@@ -44,7 +38,6 @@ class CustomerItemDetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_customer_item_detail)
-        val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
 
         val actionBar = supportActionBar
@@ -72,43 +65,35 @@ class CustomerItemDetailActivity : AppCompatActivity() {
         val sort_salesvalue = menu.findItem(R.id.sort_salesvalue)
         val sort_bonusunit = menu.findItem(R.id.sort_bonusunit)
 
-        sort_item.setOnMenuItemClickListener(object : MenuItem.OnMenuItemClickListener {
-            override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-                sort = "item_name"
-                load()
-                return false
-            }
-        })
+        sort_item.setOnMenuItemClickListener {
+            sort = "item_name"
+            load()
+            false
+        }
 
-        sort_salesunit.setOnMenuItemClickListener(object : MenuItem.OnMenuItemClickListener {
-            override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-                sort = "salesu desc"
-                load()
-                return false
-            }
-        })
+        sort_salesunit.setOnMenuItemClickListener {
+            sort = "salesu desc"
+            load()
+            false
+        }
 
-        sort_salesvalue.setOnMenuItemClickListener(object : MenuItem.OnMenuItemClickListener {
-            override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-                sort = "salesv desc"
-                load()
-                return false
-            }
-        })
+        sort_salesvalue.setOnMenuItemClickListener {
+            sort = "salesv desc"
+            load()
+            false
+        }
 
-        sort_bonusunit.setOnMenuItemClickListener(object : MenuItem.OnMenuItemClickListener {
-            override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-                sort = "bonusu desc"
-                load()
-                return false
-            }
-        })
+        sort_bonusunit.setOnMenuItemClickListener {
+            sort = "bonusu desc"
+            load()
+            false
+        }
 
         return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.getItemId()
+        val id = item.itemId
 
         if (id == android.R.id.home) {
             finish()
@@ -119,28 +104,31 @@ class CustomerItemDetailActivity : AppCompatActivity() {
     }
 
     private fun load() {
-        customerItemDetailTask = CustomerItemDetailTask(cust!!, custName!!, period!!, year!!, sort)
+        customerItemDetailTask = CustomerItemDetailTask(cust, custName, period, year, sort)
         Needle.onBackgroundThread()
                 .withTaskType("customerItemDetail")
                 .execute(customerItemDetailTask!!)
     }
 
     private fun showProgress(show: Boolean) {
-        _showProgress(show, progress!!, applicationContext)
-        txtmain?.setVisibility(if (show) View.GONE else View.VISIBLE)
-        listitem?.setVisibility(if (show) View.GONE else View.VISIBLE)
+        showProgress(show, progress, applicationContext)
+        txtmain.visibility = if (show) View.GONE else View.VISIBLE
+        listitem.visibility = if (show) View.GONE else View.VISIBLE
     }
 
-    internal inner class CustomerItemDetailTask(private val cust: String, private val custName: String, private val period: String, private val year: String, private val sort: String) : CommonTask<HashMap<String, ArrayList<CustomerItem>>>(this@CustomerItemDetailActivity) {
+    internal inner class CustomerItemDetailTask(private val cust: String?,
+                                                private val custName: String?,
+                                                private val period: String?,
+                                                private val year: String?,
+                                                private val sort: String?) :
+            CommonTask<HashMap<String, ArrayList<CustomerItem>>>(this@CustomerItemDetailActivity) {
 
         private val CLASS_NAME = "CustomerItemDetailTask"
 
-        private val la: ArrayList<String>
-        private val addr: CustomerAddress
+        private val la: ArrayList<String> = ArrayList()
+        private val addr: CustomerAddress = CustomerAddress()
 
         init {
-            la = ArrayList()
-            addr = CustomerAddress()
             showProgress(true)
         }
 
@@ -220,7 +208,7 @@ class CustomerItemDetailActivity : AppCompatActivity() {
             val lk = r.list
 
             val adapter = CustomerItemDetailAdapter(this@CustomerItemDetailActivity, lk!!)
-            listitem?.setAdapter(adapter)
+            listitem.adapter = adapter
 
             val sb = StringBuffer()
 
@@ -235,24 +223,24 @@ class CustomerItemDetailActivity : AppCompatActivity() {
 
                     if (!isEmpty(addr.addr2)) {
                         if (sb.toString().trim { it <= ' ' }.endsWith(",")) {
-                            sb.append(" " + addr.addr2!!)
+                            sb.append(" " + addr.addr2)
                         } else {
-                            sb.append(", " + addr.addr2!!)
+                            sb.append(", " + addr.addr2)
                         }
                     }
 
                     if (!isEmpty(addr.addr3)) {
                         if (sb.toString().trim { it <= ' ' }.endsWith(",")) {
-                            sb.append(" " + addr.addr3!!)
+                            sb.append(" " + addr.addr3)
                         } else {
-                            sb.append(", " + addr.addr3!!)
+                            sb.append(", " + addr.addr3)
                         }
                     }
 
                     sb.append("\nTotal Sales Unit: " + r.totalSalesUnit + "\n")
                             .append("Total Bonus Unit: " + r.totalBonusUnit + "\n")
                             .append("Total Sales Value: " + formatDouble(r.totalSalesValue) + "\n")
-                    txtmain!!.setText(sb.toString())
+                    txtmain!!.text = sb.toString()
                 }
             }
 

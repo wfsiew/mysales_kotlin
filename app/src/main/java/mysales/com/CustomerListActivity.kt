@@ -5,18 +5,15 @@ import mysales.com.adapters.CustomerItemRecyclerViewAdapter
 import mysales.com.tasks.CommonTask
 import needle.Needle
 import mysales.com.helpers.DBHelper
-import mysales.com.helpers.showProgress as _showProgress
-import android.support.v7.widget.RecyclerView
+import mysales.com.helpers.showProgress
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.Toolbar
 import android.util.Log
 import android.view.Menu
-import android.view.MenuItem
 import android.view.View
-import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_customer_list.*
+import kotlinx.android.synthetic.main.content_customer_list.*
 import mysales.com.helpers.unlockScreenOrientation
-
 
 /**
  * Created by wfsiew on 8/14/17.
@@ -24,10 +21,6 @@ import mysales.com.helpers.unlockScreenOrientation
 class CustomerListActivity : AppCompatActivity() {
 
     private val CLASS_NAME = "CustomerListTask"
-
-    private var progress: View? = null
-    private var listcust: RecyclerView? = null
-    private var empty: TextView? = null
 
     private var db: DBHelper? = null
 
@@ -43,16 +36,15 @@ class CustomerListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_customer_list)
 
-        val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
-        toolbar.setTitle(title)
+        toolbar.title = title
 
         cust = intent.getStringExtra(ARG_CUST)
         item = intent.getStringExtra(ARG_ITEM)
         period = intent.getStringExtra(ARG_PERIOD)
         year = intent.getStringExtra(ARG_YEAR)
 
-        listcust?.adapter = CustomerItemRecyclerViewAdapter(null, period!!, year!!)
+        listcust.adapter = CustomerItemRecyclerViewAdapter(null, period, year)
 
         db = DBHelper(this)
 
@@ -72,63 +64,58 @@ class CustomerListActivity : AppCompatActivity() {
         val sort_salesvalue = menu.findItem(R.id.sort_salesvalue)
         val sort_bonusunit = menu.findItem(R.id.sort_bonusunit)
 
-        sort_custcode.setOnMenuItemClickListener(object : MenuItem.OnMenuItemClickListener {
-            override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-                sort = "cust_code"
-                load()
-                return false
-            }
-        })
+        sort_custcode.setOnMenuItemClickListener {
+            sort = "cust_code"
+            load()
+            false
+        }
 
-        sort_custname.setOnMenuItemClickListener(object : MenuItem.OnMenuItemClickListener {
-            override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-                sort = "cust_name"
-                load()
-                return false
-            }
-        })
+        sort_custname.setOnMenuItemClickListener {
+            sort = "cust_name"
+            load()
+            false
+        }
 
-        sort_salesunit.setOnMenuItemClickListener(object : MenuItem.OnMenuItemClickListener {
-            override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-                sort = "salesu desc"
-                load()
-                return false
-            }
-        })
+        sort_salesunit.setOnMenuItemClickListener {
+            sort = "salesu desc"
+            load()
+            false
+        }
 
-        sort_salesvalue.setOnMenuItemClickListener(object : MenuItem.OnMenuItemClickListener {
-            override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-                sort = "salesv desc"
-                load()
-                return false
-            }
-        })
+        sort_salesvalue.setOnMenuItemClickListener {
+            sort = "salesv desc"
+            load()
+            false
+        }
 
-        sort_bonusunit.setOnMenuItemClickListener(object : MenuItem.OnMenuItemClickListener {
-            override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-                sort = "bonusu desc"
-                load()
-                return false
-            }
-        })
+        sort_bonusunit.setOnMenuItemClickListener {
+            sort = "bonusu desc"
+            load()
+            false
+        }
 
         return true
     }
 
     private fun load() {
-        customerListTask = CustomerListTask(cust!!, item!!, period!!, year!!, sort)
+        customerListTask = CustomerListTask(cust, item, period, year, sort)
         Needle.onBackgroundThread()
                 .withTaskType("customerList")
                 .execute(customerListTask!!)
     }
 
     private fun showProgress(show: Boolean) {
-        _showProgress(show, progress!!, applicationContext)
-        listcust?.visibility = View.GONE
-        empty?.setVisibility(View.GONE)
+        showProgress(show, progress, applicationContext)
+        listcust.visibility = View.GONE
+        empty.visibility = View.GONE
     }
 
-    internal inner class CustomerListTask(private val cust: String, private val item: String, private val period: String, private val year: String, private val sort: String) : CommonTask<ArrayList<Customer>>(this@CustomerListActivity) {
+    internal inner class CustomerListTask(private val cust: String?,
+                                          private val item: String?,
+                                          private val period: String?,
+                                          private val year: String?,
+                                          private val sort: String?) :
+            CommonTask<ArrayList<Customer>>(this@CustomerListActivity) {
 
         init {
             showProgress(true)
@@ -151,10 +138,10 @@ class CustomerListActivity : AppCompatActivity() {
         override fun thenDoUiRelatedWork(ls: ArrayList<Customer>) {
             showProgress(false)
             val adapter = CustomerItemRecyclerViewAdapter(ls.toArray(arrayOfNulls<Customer>(0)), period, year)
-            listcust?.adapter = adapter
+            listcust.adapter = adapter
 
-            listcust?.visibility = if (adapter.itemCount > 0) View.VISIBLE else View.GONE
-            empty?.setVisibility(if (adapter.itemCount > 0) View.GONE else View.VISIBLE)
+            listcust.visibility = if (adapter.itemCount > 0) View.VISIBLE else View.GONE
+            empty.visibility = if (adapter.itemCount > 0) View.GONE else View.VISIBLE
             unlockScreenOrientation(this@CustomerListActivity)
         }
     }

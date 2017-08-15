@@ -15,15 +15,14 @@ import needle.Needle
 import android.content.Intent
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
-import com.androidbuts.multispinnerfilter.MultiSpinnerSearch
-import android.support.v7.widget.AppCompatAutoCompleteTextView
 import android.support.design.widget.NavigationView
 import android.support.v7.app.ActionBarDrawerToggle
-import android.support.v7.widget.Toolbar
 import android.util.Log
 import android.view.MenuItem
 import android.view.View
-import android.widget.Button
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.app_bar_main.*
+import kotlinx.android.synthetic.main.content_main.*
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -32,12 +31,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     private val REQUEST_WRITE_EXTERNAL_STORAGE = 0
 
-    private var txtcust: AppCompatAutoCompleteTextView? = null
-    private var spitem: MultiSpinnerSearch? = null
-    private var spperiod: MultiSpinnerSearch? = null
-    private var spyear: MultiSpinnerSearch? = null
-    private var btnsubmit: Button? = null
-
     private var db: DBHelper? = null
 
     private var populateCustomerTask: PopulateCustomerTask? = null
@@ -45,41 +38,38 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
 
-        val drawer = findViewById<View>(R.id.drawer_layout) as DrawerLayout
         val toggle = ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
-        drawer.addDrawerListener(toggle)
+                this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
+        drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
 
-        val navigationView = findViewById<View>(R.id.nav_view) as NavigationView
-        navigationView.setNavigationItemSelectedListener(this)
+        nav_view.setNavigationItemSelectedListener(this)
 
-        btnsubmit?.setEnabled(false)
+        btnsubmit.isEnabled = false
 
-        val periodlist = Arrays.asList(resources.getStringArray(R.array.period))
+        val periodlist = resources.getStringArray(R.array.period)
         val la = ArrayList<KeyPairBoolData>()
 
         for (i in periodlist.indices) {
             val h = KeyPairBoolData()
             val v = periodlist[i]
-            h.id = Integer.valueOf(v.toString()).toLong()
+            h.id = i.toLong()
             h.name = v.toString()
             h.isSelected = false
             la.add(h)
         }
 
-        spperiod?.setLimit(-1, null)
-        spperiod?.setItems(la, -1) { }
+        spperiod.setLimit(-1, null)
+        spperiod.setItems(la, -1) { }
 
-        val yearlist = Arrays.asList(resources.getStringArray(R.array.year))
+        val yearlist = resources.getStringArray(R.array.year)
         val lb = ArrayList<KeyPairBoolData>()
 
         for (i in yearlist.indices) {
             val h = KeyPairBoolData()
-            val v = yearlist.get(i)
+            val v = yearlist[i]
             h.id = (i + 1).toLong()
             h.name = v.toString()
             h.isSelected = false
@@ -87,15 +77,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             lb.add(h)
         }
 
-        spyear?.setLimit(-1, null)
-        spyear?.setItems(lb, -1) { }
-        spyear?.setSelectedIds(arrayOf(1))
+        spyear.setLimit(-1, null)
+        spyear.setItems(lb, -1) { }
+        spyear.setSelectedIds(arrayOf(1))
 
-        btnsubmit!!.setOnClickListener(object : View.OnClickListener() {
-            override fun onClick(view: View) {
-                searchData()
-            }
-        })
+        btnsubmit.setOnClickListener { searchData() }
 
         db = DBHelper(this)
         checkPermission()
@@ -103,9 +89,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onDestroy() {
         super.onDestroy()
-        if (populateCustomerTask != null && !populateCustomerTask!!.isCanceled) {
-            populateCustomerTask!!.cancel()
-        }
+        populateCustomerTask?.cancel()
     }
 
     override fun onBackPressed() {
@@ -118,7 +102,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        val id = item.getItemId()
+        val id = item.itemId
         if (id == R.id.nav_doctor) {
             val i = Intent(this, DoctorListActivity::class.java)
             startActivity(i)
@@ -222,13 +206,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         override fun doWork(): HashMap<String, ArrayList<String>> {
             val m = HashMap<String, ArrayList<String>>()
-            var ls: ArrayList<String> = ArrayList()
-            var li: ArrayList<String> = ArrayList()
+            val ls: ArrayList<String>
+            val li: ArrayList<String>
 
             try {
                 db!!.openDataBase()
-                ls = db!!.getCustomers()
-                li = db!!.getItems()
+                ls = db!!.customers
+                li = db!!.items
                 m.put("customer", ls)
                 m.put("item", li)
             } catch (e: Exception) {
@@ -257,11 +241,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 la.add(h)
             }
 
-            spitem?.setLimit(-1, null)
-            spitem?.setItems(la, -1) { }
+            spitem.setLimit(-1, null)
+            spitem.setItems(la, -1) { }
 
-            btnsubmit?.setEnabled(true)
-            txtcust?.setAdapter(adapter)
+            btnsubmit.isEnabled = true
+            txtcust.setAdapter(adapter)
             unlockScreenOrientation(this@MainActivity)
         }
     }

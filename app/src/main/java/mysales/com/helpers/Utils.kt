@@ -15,20 +15,18 @@ import java.text.DecimalFormat
  * Created by wingfei.siew on 8/14/2017.
  */
 fun isEmpty(s: String?) : Boolean {
-    var b = false
-    if (s.isNullOrEmpty()) b = true
-
+    val b = s.isNullOrEmpty()
     return b
 }
 
-fun getSqlStr(s: String) : String {
+fun getSqlStr(s: String?) : String? {
     return s
 }
 
 fun getMessages(ls: ArrayList<String>) : String {
-    var s: String? = null
+    val s: String?
 
-    var sb = StringBuffer()
+    val sb = StringBuffer()
     for (i in 0..ls.size - 1)
         sb.append(String.format("%d. %s\n", i + 1, ls[i]))
 
@@ -37,7 +35,7 @@ fun getMessages(ls: ArrayList<String>) : String {
 }
 
 fun formatDouble(x: Double) : String {
-    var formatter = DecimalFormat("#0.00")
+    val formatter = DecimalFormat("#0.00")
     return formatter.format(x)
 }
 
@@ -50,12 +48,12 @@ fun escapeStr(s: String) : String {
 }
 
 fun getInt(x: Boolean) : Int {
-    var a = if (x == true) 1 else 0
+    val a = if (x) 1 else 0
     return a
 }
 
 fun getBoolean(x: Int) : Boolean {
-    var a = if (x == 1) true else false
+    val a = x == 1
     return a
 }
 
@@ -67,7 +65,7 @@ fun showProgress(show: Boolean, progress: View, context: Context) {
 
             progress.visibility = if (show) View.VISIBLE else View.GONE
             progress.animate()
-                    .setDuration(shortAnimTime.toLong())
+                    .setDuration(shortAnimTime)
                     .alpha((if (show) 1 else 0).toFloat())
                     .setListener(object : AnimatorListenerAdapter() {
                         override fun onAnimationEnd(animation: Animator?) {

@@ -18,8 +18,8 @@ class CustomerItemDetailAdapter(context: Context, items: ArrayList<CustomerItem>
 
     private val inflater: LayoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        var v: View = convertView!!
+    override fun getView(position: Int, convertView: View, parent: ViewGroup): View {
+        var v = convertView
         val o = getItem(position) as CustomerItem
 
         if (o.isHeader()) {

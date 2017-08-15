@@ -22,6 +22,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CustomerListActivity"
+            android:label="@string/title_customer_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomerItemDetailActivity"
+            android:label="@string/title_customer_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddDoctorActivity"
+            android:label="@string/title_add_doctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorListActivity"
+            android:label="@string/title_activity_doctor_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditDoctorActivity"
+            android:label="@string/title_edit_doctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorDetailActivity"
+            android:label="@string/title_activity_doctor_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

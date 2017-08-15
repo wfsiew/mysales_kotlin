@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/wfsiew/learn/mysales_kotlin/multispinner/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
+        "outputFile": "C:\\learn\\mysales_android_k\\multispinner\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-port\\values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "/home/wfsiew/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/0d0d8abeefa20230a777f1c03ad6b002/res/values-port/values-port.xml",
+                    "file": "C:\\Users\\wingfei.seiw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9a87d9a9fc7f1a3edf873d42426f72ac\\res\\values-port\\values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
